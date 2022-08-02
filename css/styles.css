@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #E8E7EC;
+}
+
+body {
+    background-color: #2F2B28;  
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    position: sticky;
+    width: 100%;
+    border-bottom: 0.3rem solid #E89B3A;
+}
+
+.navbar nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
